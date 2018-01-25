@@ -1,5 +1,5 @@
 #  电子相框（DigitalPhotoFrame）
-使用Python的PIL和TKinter, 编写的电子相框，用于Raspberry PI。
+使用Python的PIL和TKinter编写的电子相框，用于Raspberry PI。
 
 ## 功能描述
 * 读取指定目录下的照片
@@ -45,5 +45,5 @@ Raspberry Pi3
 
   * 播放间隔时间
 
-    digital_photos_frame.py 中的INTERVAL为照片的播放间隔时间
+    digital_photos_frame.py 中的INTERVAL变量，为照片的播放间隔时间
 
