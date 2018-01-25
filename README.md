@@ -12,9 +12,9 @@
 * 硬件环境
 Raspberry Pi 3
 
-![image](https://github.com/mrwangyu2/DigitalPhotoFrame/tree/master/images/1.png)
+ ![image](https://github.com/mrwangyu2/DigitalPhotoFrame/tree/master/images/1.png)
 
-![image](https://github.com/mrwangyu2/DigitalPhotoFrame/tree/master/images/2.png)
+ ![image](https://github.com/mrwangyu2/DigitalPhotoFrame/tree/master/images/2.png)
 
 * 系统环境
   * Raspberry Pi OS [NOOBS](https://www.raspberrypi.org/downloads/)
