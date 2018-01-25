@@ -25,13 +25,13 @@ Raspberry Pi3
 
   * 启动配置
 
-  编辑/home/pi/.config/lxsession/LXDE/autostart 
+    编辑/home/pi/.config/lxsession/LXDE/autostart 
 
-  添加 @/home/pi/digital_photos_frame.py
+    添加 @/home/pi/digital_photos_frame.py
 
   * 关闭屏幕休眠
 
-  编辑/etc/lightdm/lightdm.conf, 找到[SeatDefaults]段下的'xserver-command',取消注释,修改为如下: 
+    编辑/etc/lightdm/lightdm.conf, 找到[SeatDefaults]段下的'xserver-command',取消注释,修改为如下: 
 
   ```
   xserver-command=X -s 0 -dpms
@@ -40,9 +40,9 @@ Raspberry Pi3
 * 配置
   * 配置照片路径
 
-  digital_photos_frame.py 中的PHOTOS_PATH变量，指定了照片的存放路径
+    digital_photos_frame.py 中的PHOTOS_PATH变量，指定了照片的存放路径
 
   * 播放间隔时间
 
-  digital_photos_frame.py 中的INTERVAL为照片的播放间隔时间
+    digital_photos_frame.py 中的INTERVAL为照片的播放间隔时间
 
