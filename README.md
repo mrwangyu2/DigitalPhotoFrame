@@ -19,9 +19,10 @@ Raspberry Pi3
 * 系统环境
   * Raspberry Pi OS [NOOBS](https://www.raspberrypi.org/downloads/)
   * PIL 安装
-  ```
-  $sudo easy_install PIL
-  ```
+
+    ```
+    $sudo easy_install PIL
+    ```
 
   * 启动配置
 
@@ -33,9 +34,9 @@ Raspberry Pi3
 
     编辑/etc/lightdm/lightdm.conf, 找到[SeatDefaults]段下的'xserver-command',取消注释,修改为如下: 
 
-  ```
-  xserver-command=X -s 0 -dpms
-  ```
+    ```
+    xserver-command=X -s 0 -dpms
+    ```
 
 * 配置
   * 配置照片路径
